@@ -1,0 +1,509 @@
+Files already downloaded and verified
+Verification Radius(L-inf):  12
+Mean:  (0.4914, 0.4822, 0.4465)
+Std:  (0.2023, 0.1994, 0.201)
+Label to verify: 1
+Original Output: tensor([[ 1.5743, 10.2826, -0.7860, -3.3616, -2.1668, -1.6555, -2.5476, -3.2747,
+          0.8348,  1.1005]])
+Error Ratio: 0.01
+Free Variables: 50
+Currently Optimization: 0
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Set parameter Username
+Academic license - for non-commercial use only - expires 2022-02-24
+Currently Optimization: 2
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 3
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 4
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 5
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 6
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 7
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 8
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 9
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Verifying...
+Component Margins: [0.13732664424105906, 0.0, 0.15789408706893907, 0.1151908296068853, 0.15597223372693647, 0.1418456445145669, 0.15486907798727242, 0.147085973245023, 0.13724429521299927, 0.14055460886096924]
+Margin: 0.20348281093927234
+Network is PAC-model robust with error rate 0.01 and confidence level 0.999
+Verification Radius(L-inf):  13
+Mean:  (0.4914, 0.4822, 0.4465)
+Std:  (0.2023, 0.1994, 0.201)
+Label to verify: 1
+Original Output: tensor([[ 1.5743, 10.2826, -0.7860, -3.3616, -2.1668, -1.6555, -2.5476, -3.2747,
+          0.8348,  1.1005]])
+Error Ratio: 0.01
+Free Variables: 50
+Currently Optimization: 0
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 2
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 3
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 4
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 5
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 6
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 7
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 8
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 9
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Verifying...
+Component Margins: [0.15888941341043142, 0.0, 0.1833302891764199, 0.13278800990324277, 0.18005080778296342, 0.16518760425876725, 0.18210067211423497, 0.17133022820093086, 0.1587086744304409, 0.16123271241091686]
+Margin: 0.23261239598493155
+Potential Counter-Example Found! Attack From 0
+Difference Evaluation( 0 - 1 ): [ 0.4288206999144963 , 0.7465995267353591 ]
+Fake Counter-Example. Potential Attack label: 0 Score: tensor(4.7429, device='cuda:0') Real Largest Label: 1 Score: tensor(5.6249, device='cuda:0') Original Label Score: tensor(5.6249, device='cuda:0')
+Difference: tensor(-0.8820, device='cuda:0')
+Unknown. Potential Counter-Example exists.
+Verification Radius(L-inf):  10
+Mean:  (0.4914, 0.4822, 0.4465)
+Std:  (0.2023, 0.1994, 0.201)
+Label to verify: 1
+Original Output: tensor([[ 1.5743, 10.2826, -0.7860, -3.3616, -2.1668, -1.6555, -2.5476, -3.2747,
+          0.8348,  1.1005]])
+Error Ratio: 0.01
+Free Variables: 50
+Currently Optimization: 0
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 2
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 3
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 4
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 5
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 6
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 7
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 8
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 9
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Verifying...
+Component Margins: [0.14567487834296822, 0.0, 0.16329627239962263, 0.127204119353889, 0.1599674417668345, 0.14591513112792207, 0.15462489979358499, 0.15129840388329802, 0.14998411117808533, 0.1465834951507552]
+Margin: 0.24390021639379
+Network is PAC-model robust with error rate 0.01 and confidence level 0.999
+Verification Radius(L-inf):  11
+Mean:  (0.4914, 0.4822, 0.4465)
+Std:  (0.2023, 0.1994, 0.201)
+Label to verify: 1
+Original Output: tensor([[ 1.5743, 10.2826, -0.7860, -3.3616, -2.1668, -1.6555, -2.5476, -3.2747,
+          0.8348,  1.1005]])
+Error Ratio: 0.01
+Free Variables: 50
+Currently Optimization: 0
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 2
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 3
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 4
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 5
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 6
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 7
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 8
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Currently Optimization: 9
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 11600 Cases
+Verifying...
+Component Margins: [0.16798670671949653, 0.0, 0.19328252470911503, 0.14946629984149382, 0.19341065757846626, 0.17447701928958234, 0.18630287324205813, 0.17886057914825212, 0.17846675690668892, 0.17104043632439084]
+Margin: 0.29089617922069877
+Potential Counter-Example Found! Attack From 0
+Difference Evaluation( 0 - 1 ): [ -0.16162786676551794 , 0.17434554667347513 ]
+Fake Counter-Example. Potential Attack label: 0 Score: tensor(4.2247, device='cuda:0') Real Largest Label: 1 Score: tensor(6.4584, device='cuda:0') Original Label Score: tensor(6.4584, device='cuda:0')
+Difference: tensor(-2.2337, device='cuda:0')
+Unknown. Potential Counter-Example exists.
+Verification Radius(L-inf):  12
+Mean:  (0.4914, 0.4822, 0.4465)
+Std:  (0.2023, 0.1994, 0.201)
+Label to verify: 1
+Original Output: tensor([[ 1.5743, 10.2826, -0.7860, -3.3616, -2.1668, -1.6555, -2.5476, -3.2747,
+          0.8348,  1.1005]])
+Error Ratio: 0.1
+Free Variables: 52
+Currently Optimization: 0
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 2
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 3
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 4
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 5
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 6
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 7
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 8
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 9
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Verifying...
+Component Margins: [0.10147304593181984, 0.0, 0.11579612592759234, 0.0873625553068738, 0.11805699109254979, 0.1035752265276872, 0.10783586865827038, 0.10674563182624099, 0.09724769689194387, 0.10015513170948165]
+Margin: 0.2158292557102719
+Network is PAC-model robust with error rate 0.1 and confidence level 0.999
+Verification Radius(L-inf):  13
+Mean:  (0.4914, 0.4822, 0.4465)
+Std:  (0.2023, 0.1994, 0.201)
+Label to verify: 1
+Original Output: tensor([[ 1.5743, 10.2826, -0.7860, -3.3616, -2.1668, -1.6555, -2.5476, -3.2747,
+          0.8348,  1.1005]])
+Error Ratio: 0.1
+Free Variables: 52
+Currently Optimization: 0
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 2
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 3
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 4
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 5
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 6
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 7
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 8
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 9
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Verifying...
+Component Margins: [0.11626547494244376, 0.0, 0.13311087742397248, 0.10209855349970812, 0.13767921414069464, 0.12072052202198982, 0.12628540820191575, 0.12435433411854177, 0.11286653782125941, 0.11482566419528346]
+Margin: 0.253974835185403
+Potential Counter-Example Found! Attack From 0
+Difference Evaluation( 0 - 1 ): [ 0.4845204656068367 , 0.7170514154917242 ]
+Fake Counter-Example. Potential Attack label: 0 Score: tensor(4.7429, device='cuda:0') Real Largest Label: 1 Score: tensor(5.6249, device='cuda:0') Original Label Score: tensor(5.6249, device='cuda:0')
+Difference: tensor(-0.8820, device='cuda:0')
+Unknown. Potential Counter-Example exists.
+Verification Radius(L-inf):  10
+Mean:  (0.4914, 0.4822, 0.4465)
+Std:  (0.2023, 0.1994, 0.201)
+Label to verify: 1
+Original Output: tensor([[ 1.5743, 10.2826, -0.7860, -3.3616, -2.1668, -1.6555, -2.5476, -3.2747,
+          0.8348,  1.1005]])
+Error Ratio: 0.1
+Free Variables: 52
+Currently Optimization: 0
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 2
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 3
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 4
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 5
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 6
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 7
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 8
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 9
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Verifying...
+Component Margins: [0.10973977678006867, 0.0, 0.11390921987533761, 0.09503477117306487, 0.1183713579513101, 0.1063267795126295, 0.11958281561125608, 0.11243867116212908, 0.11262910020244778, 0.10978031297602939]
+Margin: 0.20397711428311283
+Network is PAC-model robust with error rate 0.1 and confidence level 0.999
+Verification Radius(L-inf):  11
+Mean:  (0.4914, 0.4822, 0.4465)
+Std:  (0.2023, 0.1994, 0.201)
+Label to verify: 1
+Original Output: tensor([[ 1.5743, 10.2826, -0.7860, -3.3616, -2.1668, -1.6555, -2.5476, -3.2747,
+          0.8348,  1.1005]])
+Error Ratio: 0.1
+Free Variables: 52
+Currently Optimization: 0
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 2
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 3
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 4
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 5
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 6
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 7
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 8
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Currently Optimization: 9
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 1200 Cases
+Verifying...
+Component Margins: [0.12748764668864054, 0.0, 0.1344650602006357, 0.11370730482610765, 0.1411426793435534, 0.12562523173837942, 0.14203988093843295, 0.13400250716804282, 0.13418497129242565, 0.13054268640339295]
+Margin: 0.24666608444547045
+Potential Counter-Example Found! Attack From 0
+Difference Evaluation( 0 - 1 ): [ -0.21574753382493617 , 0.03922775955234492 ]
+Fake Counter-Example. Potential Attack label: 0 Score: tensor(4.2692, device='cuda:0') Real Largest Label: 1 Score: tensor(6.4414, device='cuda:0') Original Label Score: tensor(6.4414, device='cuda:0')
+Difference: tensor(-2.1722, device='cuda:0')
+Unknown. Potential Counter-Example exists.
+Verification Radius(L-inf):  12
+Mean:  (0.4914, 0.4822, 0.4465)
+Std:  (0.2023, 0.1994, 0.201)
+Label to verify: 1
+Original Output: tensor([[ 1.5743, 10.2826, -0.7860, -3.3616, -2.1668, -1.6555, -2.5476, -3.2747,
+          0.8348,  1.1005]])
+Error Ratio: 0.01
+Free Variables: 50
+Currently Optimization: 0
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 2
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 3
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 4
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 5
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 6
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 7
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 8
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 9
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Verifying...
+Component Margins: [0.13700258549551636, 0.0, 0.1577815871857034, 0.11415586855890102, 0.15544172347373494, 0.1410390889156298, 0.1529571198292735, 0.1458011927930301, 0.13688938714408538, 0.14030648668486928]
+Margin: 0.21132647485506872
+Network is PAC-model robust with error rate 0.01 and confidence level 0.9
+Verification Radius(L-inf):  13
+Mean:  (0.4914, 0.4822, 0.4465)
+Std:  (0.2023, 0.1994, 0.201)
+Label to verify: 1
+Original Output: tensor([[ 1.5743, 10.2826, -0.7860, -3.3616, -2.1668, -1.6555, -2.5476, -3.2747,
+          0.8348,  1.1005]])
+Error Ratio: 0.01
+Free Variables: 50
+Currently Optimization: 0
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 2
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 3
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 4
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 5
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 6
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 7
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 8
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 9
+Constructing Template (First Phase Focused Learning, Regression) with 20000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Verifying...
+Component Margins: [0.15863192608400986, 0.0, 0.18315634626162125, 0.13243719710076776, 0.179319989419435, 0.16385507741607602, 0.1803373417525104, 0.16889589704693686, 0.15833981035566816, 0.1607555748744733]
+Margin: 0.25503523449556553
+Potential Counter-Example Found! Attack From 0
+Difference Evaluation( 0 - 1 ): [ 0.46849352783072057 , 0.7857573799987403 ]
+Fake Counter-Example. Potential Attack label: 0 Score: tensor(4.7429, device='cuda:0') Real Largest Label: 1 Score: tensor(5.6249, device='cuda:0') Original Label Score: tensor(5.6249, device='cuda:0')
+Difference: tensor(-0.8820, device='cuda:0')
+Unknown. Potential Counter-Example exists.
+Verification Radius(L-inf):  10
+Mean:  (0.4914, 0.4822, 0.4465)
+Std:  (0.2023, 0.1994, 0.201)
+Label to verify: 1
+Original Output: tensor([[ 1.5743, 10.2826, -0.7860, -3.3616, -2.1668, -1.6555, -2.5476, -3.2747,
+          0.8348,  1.1005]])
+Error Ratio: 0.01
+Free Variables: 50
+Currently Optimization: 0
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 2
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 3
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 4
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 5
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 6
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 7
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 8
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 9
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Verifying...
+Component Margins: [0.14524432481022403, 0.0, 0.16238283998641828, 0.12635405225570803, 0.1593802160012648, 0.14546507461119165, 0.15311044031546345, 0.1503828802379967, 0.149288764857186, 0.14637927730975372]
+Margin: 0.20011748938558682
+Network is PAC-model robust with error rate 0.01 and confidence level 0.9
+Verification Radius(L-inf):  11
+Mean:  (0.4914, 0.4822, 0.4465)
+Std:  (0.2023, 0.1994, 0.201)
+Label to verify: 1
+Original Output: tensor([[ 1.5743, 10.2826, -0.7860, -3.3616, -2.1668, -1.6555, -2.5476, -3.2747,
+          0.8348,  1.1005]])
+Error Ratio: 0.01
+Free Variables: 50
+Currently Optimization: 0
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 2
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 3
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 4
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 5
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 6
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 7
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 8
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Currently Optimization: 9
+Constructing Template (First Phase Focused Learning, Regression) with 5000 Cases
+Scenario Optimization (Second Phase Focused Learning) with 10800 Cases
+Verifying...
+Component Margins: [0.1677047389023214, 0.0, 0.19166185357488585, 0.1490992029578569, 0.19231761982932263, 0.17397906184361392, 0.18599970826253276, 0.1785557593883317, 0.177622851724963, 0.17085329416716058]
+Margin: 0.25412885247996186
+Potential Counter-Example Found! Attack From 0
+Difference Evaluation( 0 - 1 ): [ -0.17837645091948717 , 0.15703302688515564 ]
+Fake Counter-Example. Potential Attack label: 0 Score: tensor(4.2247, device='cuda:0') Real Largest Label: 1 Score: tensor(6.4584, device='cuda:0') Original Label Score: tensor(6.4584, device='cuda:0')
+Difference: tensor(-2.2337, device='cuda:0')
+Unknown. Potential Counter-Example exists.
+Time:  2648.268790960312
+Epsilon: 0.01 Eta: 0.001 K(1): 20000 Radius(L-inf): 12    Network is PAC-model robust.
+Epsilon: 0.01 Eta: 0.001 K(1): 20000 Radius(L-inf): 13    Unknown. Potential Counter-Example exists.
+Epsilon: 0.01 Eta: 0.001 K(1): 5000 Radius(L-inf): 10    Network is PAC-model robust.
+Epsilon: 0.01 Eta: 0.001 K(1): 5000 Radius(L-inf): 11    Unknown. Potential Counter-Example exists.
+Epsilon: 0.1 Eta: 0.001 K(1): 20000 Radius(L-inf): 12    Network is PAC-model robust.
+Epsilon: 0.1 Eta: 0.001 K(1): 20000 Radius(L-inf): 13    Unknown. Potential Counter-Example exists.
+Epsilon: 0.1 Eta: 0.001 K(1): 5000 Radius(L-inf): 10    Network is PAC-model robust.
+Epsilon: 0.1 Eta: 0.001 K(1): 5000 Radius(L-inf): 11    Unknown. Potential Counter-Example exists.
+Epsilon: 0.01 Eta: 0.1 K(1): 20000 Radius(L-inf): 12    Network is PAC-model robust.
+Epsilon: 0.01 Eta: 0.1 K(1): 20000 Radius(L-inf): 13    Unknown. Potential Counter-Example exists.
+Epsilon: 0.01 Eta: 0.1 K(1): 5000 Radius(L-inf): 10    Network is PAC-model robust.
+Epsilon: 0.01 Eta: 0.1 K(1): 5000 Radius(L-inf): 11    Unknown. Potential Counter-Example exists.
+
