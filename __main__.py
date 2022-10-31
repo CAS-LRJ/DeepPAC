@@ -1,5 +1,6 @@
 import argparse
 import importlib
+from auxilliry import Namespace
 from verify import mnist, cifar, imagenet
 import time
 
@@ -20,13 +21,30 @@ def verify(args):
         print('Error: significance level should be in [0,1]')
 
     start = time.time()
+    result = None
     if args.dataset == 'mnist':
-        mnist.mnist_verify(net_class, args)
+        result = mnist.mnist_verify(net_class, args)
     elif args.dataset == 'cifar10':
-        cifar.cifar_verify(net_class, args)
+        result = cifar.cifar_verify(net_class, args)
     elif args.dataset == 'imagenet':
-        imagenet.imagenet_verify(net_class, args)
+        result = imagenet.imagenet_verify(net_class, args)
     print('Time: ', time.time()-start)
+    return result
+
+def findmax(args):        
+    lower_bound = args.lowerbound
+    upper_bound = args.upperbound
+    max_r = 0.
+    while lower_bound <= upper_bound:
+        mid = int((lower_bound + upper_bound)/2)
+        args.__dict__.update(radius=mid)
+        result = verify(args)
+        if result == 1:
+            max_r = mid
+            lower_bound = mid + 1
+        else:
+            upper_bound = mid - 1
+    print('Maximal Robustness Radius: ', max_r)
 
 
 parser = argparse.ArgumentParser()
@@ -38,8 +56,14 @@ parser.add_argument('-m', '--model', type=str,
                     help='Model File for the network class containing the PyTorch statedict', required=True)
 parser.add_argument('-d', '--dataset', type=str, choices=['mnist', 'cifar10', 'imagenet'],
                     help='The dataset of the model can be either mnist, cifar10 or imagenet', required=True)
-parser.add_argument('-r', '--radius', type=int, choices=range(0, 256),
-                    help='The verification radius of the L-inf ball (0-255)', required=True, metavar='0-255')
+parser.add_argument('-r', '--radius', type=int, choices=range(0, 256), default=2,
+                    help='The verification radius of the L-inf ball (0-255)', metavar='0-255')
+parser.add_argument('-findmax', '--findmax', action='store_true',
+                    help='Set if you want to search the maximal robust radius (binary search)')
+parser.add_argument('-lb', '--lowerbound', type=int, choices=range(0, 256), default=0,
+                    help='The lower bound of binary search', metavar='0-255')
+parser.add_argument('-ub', '--upperbound', type=int, choices=range(0, 256), default=255,
+                    help='The upper bound of binary search', metavar='0-255')                                        
 parser.add_argument('-eps', '--epsilon', type=float,
                     help='The error rate of the PAC-model', required=True)
 parser.add_argument('-eta', '--eta', type=float,
@@ -72,6 +96,7 @@ parser.add_argument('-solver', '--lpsolver', choices=[
 imagenet_required = ['image']
 
 args = parser.parse_args()
-verify(args)
-
-# print(args)
+if args.findmax == True:
+    findmax(args)
+else:
+    verify(args)

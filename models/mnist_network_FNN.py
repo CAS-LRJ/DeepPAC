@@ -21,6 +21,12 @@ class Network(nn.Module):
 def FNN1():
     return Network([784,50,50,50,10])
 
+def FNN1Sig():
+    return Network([784,50,50,50,10], activation=nn.Sigmoid)
+
+def FNN1Tanh():
+    return Network([784,50,50,50,10], activation=nn.Tanh)
+
 def FNN2():
     return Network([784]+[100]*3+[10])
 

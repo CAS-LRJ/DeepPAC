@@ -6,6 +6,9 @@ import math
 from sklearn.linear_model import LinearRegression
 from .grid import Grid, grid_split
 import torch.backends.cudnn as cudnn
+import seaborn as sns; sns.set()
+import matplotlib; matplotlib.use('TKAgg', force=True)
+import matplotlib.pyplot as plt
 
 '''
     Global Constants:
@@ -169,6 +172,13 @@ def scenario_optimization(image, label):
     eps_max = np.max(np.abs(scores-fixed_constant-intercept))
     print('Margin: ', eps_max)
     del features, scores, fixed_constant
+
+    # Generate the explanations
+    heat_map = np.sqrt((fixed_coeff*fixed_coeff).sum(0))
+    heat_map = (heat_map - heat_map.min())/(heat_map.max()-heat_map.min()+0.000001)
+    fig = plt.figure()
+    sns_plot = sns.heatmap(heat_map, cmap='mako', annot=False)
+    plt.show()
 
     safe = True
     unsafe = False
